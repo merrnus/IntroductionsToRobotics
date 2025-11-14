@@ -6,11 +6,11 @@ This repository contains my homework assignments for the Introduction to Robotic
 
 ### Homework #1 - RGB LED Control
 Control RGB LED colors using potentiometers.  
-[View details](./Homework1/)
+[View details](./homework1/)
 
 ### Homework #2 - Traffic Light System
 Pedestrian crosswalk traffic light with countdown and buzzer.  
-[View details](./Homework2/)
+[View details](./homework2/)
 
 ---
 
