@@ -56,7 +56,14 @@ Used state machine pattern and millis() for timing. Button uses interrupt so it 
 ## Problems solved
 My display was common anode not cathode so I had to figure out how to invert the segment patterns (LOW=on instead of HIGH=on). Also took time to understand the 8 second delay requirement after button press.
 
+## Circuit Photo
+![Circuit](circuit1.jpeg)
+![Circuit](circuit2.jpeg)
+![Circuit](circuit3.jpeg)
+![Circuit](circuit4.jpeg)
+
 ## Video
+![Video](video.mp4)
 
 ## Resources
 Used Claude AI for understanding state machines, interrupts, and millis() timing.
