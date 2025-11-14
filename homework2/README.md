@@ -34,5 +34,8 @@ My display was common anode not cathode so I had to figure out how to invert the
 ## Video
 (will add later, it has too many storage thats why i could not add for a moment)
 
+## Resources
+Used Claude AI for understanding state machines, interrupts, and millis() timing.
+
 Atamuradov Muhammet - 361          
 November 2024
