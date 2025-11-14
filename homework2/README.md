@@ -60,10 +60,9 @@ My display was common anode not cathode so I had to figure out how to invert the
 ![Circuit](circuit1.jpeg)
 ![Circuit](circuit2.jpeg)
 ![Circuit](circuit3.jpeg)
-![Circuit](circuit4.jpeg)
 
-## Video
-![Video](video.mp4)
+## Video Demo
+[[Watch it working here]](https://youtu.be/YYSJdyFlz4U))
 
 ## Resources
 Used Claude AI for understanding state machines, interrupts, and millis() timing.
