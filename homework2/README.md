@@ -11,12 +11,37 @@ Traffic light system for pedestrian crossing. When you press the button, it goes
 - 7-segment display (1 digit)
 - Resistors and wires
 
-## Wiring
-- Pedestrian LEDs: pins 13 (red), 12 (green)
-- Car LEDs: pins 11 (red), 10 (yellow), 9 (green)
-- Button: pin 2
-- Buzzer: pin 8
-- Display segments: pins 7,6,5,4,3,A0,A1 (common anode to 5V)
+## Circuit Setup
+
+### Connections:
+
+**Pedestrian LEDs:**
+- Red LED: Long leg → 1kΩ resistor → Pin 13, Short leg → GND
+- Green LED: Long leg → 1kΩ resistor → Pin 12, Short leg → GND
+
+**Car LEDs:**
+- Red LED: Long leg → 1kΩ resistor → Pin 11, Short leg → GND
+- Yellow LED: Long leg → 1kΩ resistor → Pin 10, Short leg → GND
+- Green LED: Long leg → 1kΩ resistor → Pin 9, Short leg → GND
+
+**Push Button:**
+- One side → Pin 2
+- Same side → 10kΩ resistor → 5V
+- Other side → GND
+
+**Buzzer:**
+- Positive (+) → Pin 8
+- Negative (-) → GND
+
+**7-Segment Display (Common Anode):**
+- Segment A → 220Ω resistor → Pin 7
+- Segment B → 220Ω resistor → Pin 6
+- Segment C → 220Ω resistor → Pin 5
+- Segment D → 220Ω resistor → Pin 4
+- Segment E → 220Ω resistor → Pin 3
+- Segment F → 220Ω resistor → Pin A0
+- Segment G → 220Ω resistor → Pin A1
+- Common pin → 5V
 
 ## How it works
 After pressing button:
@@ -32,7 +57,6 @@ Used state machine pattern and millis() for timing. Button uses interrupt so it 
 My display was common anode not cathode so I had to figure out how to invert the segment patterns (LOW=on instead of HIGH=on). Also took time to understand the 8 second delay requirement after button press.
 
 ## Video
-(will add later, it has too many storage thats why i could not add for a moment)
 
 ## Resources
 Used Claude AI for understanding state machines, interrupts, and millis() timing.
