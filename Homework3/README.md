@@ -86,8 +86,8 @@ Built with help from Claude AI for understanding Serial Monitor menus, sensor ca
 ![Circuit photo](circuit2.jpeg)
 
 ## Video
-https://youtu.be/HRD2i0TbarQ
-https://youtu.be/9mTxRMfO8rc
+[[Watch it working here]]https://youtu.be/HRD2i0TbarQ
+[[Watch it working here]]https://youtu.be/9mTxRMfO8rc
 
 ---
 **Course:** Introduction to Robotics  
