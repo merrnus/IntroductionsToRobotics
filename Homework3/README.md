@@ -86,7 +86,7 @@ Built with help from Claude AI for understanding Serial Monitor menus, sensor ca
 ![Circuit photo](circuit2.jpeg)
 
 ## Video
-[[The menu]](https://youtu.be/HRD2i0TbarQ)
+[[The menu]](https://youtu.be/HRD2i0TbarQ) <br>
 [[Home alarm system]](https://youtu.be/9mTxRMfO8rc)
 
 ---
