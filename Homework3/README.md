@@ -84,8 +84,9 @@ Built with help from Claude AI for understanding Serial Monitor menus, sensor ca
 [Link to video demo]
 
 ## Photo
-![Circuit photo](circuit.jpg)
-
+![Circuit photo](circuit.jpeg)
+![Circuit photo](circuit1.jpeg)
+![Circuit photo](circuit2.jpeg)
 ---
 **Course:** Introduction to Robotics  
 **Date:** November 2024
