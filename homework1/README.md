@@ -87,5 +87,5 @@ Used Claude AI for learning Arduino basics and circuit debugging.
 
 
 **Course:** Introduction to Robotics  
-**Date:** 06/11/2025
-**Student:** Muhammet Atamuradov
+**Date:** 06/11/2025 <br>
+**Student:** Muhammet Atamuradov - 361
