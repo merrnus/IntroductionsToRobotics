@@ -80,13 +80,15 @@ Password checking is simple string comparison. Settings are stored in variables 
 ## Resources
 Built with help from Claude AI for understanding Serial Monitor menus, sensor calibration, and millis() timing. Debugged the movement detection logic and alarm triggering through testing.
 
-## Video
-[Link to video demo]
-
 ## Photo
 ![Circuit photo](circuit.jpeg)
 ![Circuit photo](circuit1.jpeg)
 ![Circuit photo](circuit2.jpeg)
+
+## Video
+https://youtu.be/HRD2i0TbarQ
+https://youtu.be/9mTxRMfO8rc
+
 ---
 **Course:** Introduction to Robotics  
 **Date:** November 2024
