@@ -1,37 +1,40 @@
-// RGB LED Control with 2 Potentiometers
-// Controls Red and Green colors
+// RGB LED Control with 3 Potentiometers
 
-// Define pins
-const int redPin = 9;      // Red LED connected to pin 9
-const int greenPin = 10;   // Green LED connected to pin 10
-const int potRed = A0;     // Potentiometer for Red connected to A0
-const int potGreen = A1;   // Potentiometer for Green connected to A1
+const int redPin = 9;
+const int greenPin = 10;
+const int bluePin = 11;
+
+const int potRed = A0;
+const int potGreen = A1;
+const int potBlue = A2;
 
 void setup() {
-  
   pinMode(redPin, OUTPUT);
   pinMode(greenPin, OUTPUT);
+  pinMode(bluePin, OUTPUT);
   
   Serial.begin(9600);
 }
 
 void loop() {
-  // Read potentiometer values (0-1023)
   int redValue = analogRead(potRed);
   int greenValue = analogRead(potGreen);
+  int blueValue = analogRead(potBlue);
   
-  // Map potentiometer values to LED brightness (0-255)
   int redBrightness = map(redValue, 0, 1023, 0, 255);
   int greenBrightness = map(greenValue, 0, 1023, 0, 255);
+  int blueBrightness = map(blueValue, 0, 1023, 0, 255);
   
-  // Set LED brightness
   analogWrite(redPin, redBrightness);
   analogWrite(greenPin, greenBrightness);
+  analogWrite(bluePin, blueBrightness);
   
-  Serial.print("Red: ");
+  Serial.print("R: ");
   Serial.print(redBrightness);
-  Serial.print(" | Green: ");
-  Serial.println(greenBrightness);
+  Serial.print(" | G: ");
+  Serial.print(greenBrightness);
+  Serial.print(" | B: ");
+  Serial.println(blueBrightness);
   
-  delay(10);
+  delay(100);
 }
