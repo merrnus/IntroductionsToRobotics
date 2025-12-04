@@ -56,10 +56,15 @@ At first I only had 2 potentiometers so could only control red and green. Found 
 Had to figure out which leg of the RGB LED was which color by testing. The long leg is the common cathode that goes to ground.
 
 ## Photo
-![Circuit](circuit.jpg)
+![Circuit](circuit1.jpeg)
+![Circuit](circuit2.jpeg)
+![Circuit](circuit3.jpeg)
+![Circuit](circuit4.jpeg)
+![Circuit](circuit5.jpeg)
+![Circuit](circuit6.jpeg)
 
 ## Video
-[Video demo link]
+https://youtube.com/shorts/Q05FFBBaA8s?feature=share
 
 ## Resources
 Used Claude AI for understanding PWM and analogRead/analogWrite functions.
