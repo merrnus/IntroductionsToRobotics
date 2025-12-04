@@ -63,7 +63,7 @@ Had to figure out which leg of the RGB LED was which color by testing. The long 
 ![Circuit](circuit5.jpeg)
 
 ## Youtube Video
-https://youtube.com/shorts/0gALRP3d9kw?feature=share
+[[Traffic lights]](https://youtube.com/shorts/0gALRP3d9kw?feature=share)
 
 ## Resources
 Used Claude AI for understanding PWM and analogRead/analogWrite functions.
