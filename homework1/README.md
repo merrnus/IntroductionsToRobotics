@@ -63,8 +63,8 @@ Had to figure out which leg of the RGB LED was which color by testing. The long 
 ![Circuit](circuit5.jpeg)
 ![Circuit](circuit6.jpeg)
 
-## Video
-https://youtube.com/shorts/Q05FFBBaA8s?feature=share
+## Youtube Video
+https://youtube.com/shorts/0gALRP3d9kw?feature=share
 
 ## Resources
 Used Claude AI for understanding PWM and analogRead/analogWrite functions.
