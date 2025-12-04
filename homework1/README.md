@@ -61,7 +61,6 @@ Had to figure out which leg of the RGB LED was which color by testing. The long 
 ![Circuit](circuit3.jpeg)
 ![Circuit](circuit4.jpeg)
 ![Circuit](circuit5.jpeg)
-![Circuit](circuit6.jpeg)
 
 ## Youtube Video
 https://youtube.com/shorts/0gALRP3d9kw?feature=share
