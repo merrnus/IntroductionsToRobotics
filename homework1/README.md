@@ -1,91 +1,70 @@
-# IntroductionsToRobotics
-
-# Homework #1 - RGB LED Color Control with Potentiometers
+# Homework 1 - RGB LED Control
 
 ## Description
-This project controls an RGB LED using two potentiometers (rotary knobs). By turning the knobs, you can control the Red and Green color channels independently, creating various color combinations including red, green, and yellow/orange tones.
+Control an RGB LED color by adjusting three potentiometers. Each potentiometer controls one color channel (red, green, or blue), allowing you to mix any color.
 
-**Note:** This implementation uses 2 potentiometers instead of 3 due to hardware availability. The blue channel is not connected.
+## Components
+- 1x Arduino UNO
+- 1x RGB LED (common cathode)
+- 3x Potentiometers (10kΩ)
+- 3x Resistors (1kΩ)
+- Breadboard and jumper wires
 
-## Components Used
-- 1x Arduino UNO (Robotlinking UNO R3)
-- 1x RGB LED (Common Cathode)
-- 2x Potentiometers (10kΩ)
-- 2x Resistors (1kΩ - Brown, Black, Red, Gold)
-- 1x Breadboard
-- Jumper wires (Male-to-Male)
+## Circuit Wiring
 
-## Circuit Setup
+**RGB LED (4 legs):**
+- Leg 1 (Red) → 1kΩ resistor → Pin 9
+- Leg 2 (Long - Common Cathode) → GND
+- Leg 3 (Green) → 1kΩ resistor → Pin 10
+- Leg 4 (Blue) → 1kΩ resistor → Pin 11
 
-### Connections:
-**RGB LED:**
-- Red leg → 1kΩ resistor → Arduino Pin 9
-- Long leg (Common Cathode) → GND
-- Green leg → 1kΩ resistor → Arduino Pin 10
-- Blue leg → Not connected
-
-**Potentiometer 1 (Red Control):**
+**Potentiometer 1 (Red control):**
 - Left pin → GND
-- Middle pin → Arduino A0
+- Middle pin → Pin A0
 - Right pin → 5V
 
-**Potentiometer 2 (Green Control):**
+**Potentiometer 2 (Green control):**
 - Left pin → GND
-- Middle pin → Arduino A1
+- Middle pin → Pin A1
 - Right pin → 5V
 
-### Circuit Photo:
-[Circuit Setup]( )
+**Potentiometer 3 (Blue control):**
+- Left pin → GND
+- Middle pin → Pin A2
+- Right pin → 5V
 
-## How It Works
+## How it works
 
-The potentiometers act as variable voltage dividers. When you turn a knob:
-1. The Arduino reads an analog value (0-1023) from pins A0 and A1
-2. The code maps this value to LED brightness (0-255)
-3. PWM (Pulse Width Modulation) on pins 9 and 10 controls the LED intensity
-4. Mixing red and green at different intensities creates various colors
+The Arduino reads analog values from the three potentiometers (0-1023) and maps them to PWM brightness values (0-255). By turning the knobs, you control how much red, green, and blue light the LED produces, creating different colors.
 
-**Color Results:**
-- Red knob only → Pure red
-- Green knob only → Light green
-- Both knobs → Yellow/orange (red + green mix)
+**Color mixing examples:**
+- Red only → pure red
+- Green only → pure green
+- Blue only → pure blue
+- Red + Green → yellow
+- Red + Blue → magenta/purple
+- Green + Blue → cyan
+- All three → white
+- All off → no light
 
-## Code Explanation
+The code uses PWM (Pulse Width Modulation) on pins 9, 10, and 11 to control LED brightness. Higher values mean brighter colors.
 
-The Arduino sketch performs these steps:
-1. **Setup:** Configures pins 9 and 10 as outputs for LED control
-2. **Loop:** 
-   - Reads potentiometer values using `analogRead()`
-   - Maps values from 0-1023 range to 0-255 using `map()` function
-   - Sends PWM signals to LED using `analogWrite()`
-   - Updates continuously with small delay
+## Problems encountered
 
-## Challenges & Learning
+At first I only had 2 potentiometers so could only control red and green. Found the third one later and added blue control for full RGB mixing.
 
-**Challenge:** Only had 2 potentiometers available instead of 3.
+Had to figure out which leg of the RGB LED was which color by testing. The long leg is the common cathode that goes to ground.
 
-**Solution:** Focused on Red and Green channels, which still demonstrates the core concept of analog input controlling PWM output. This limitation actually simplified the learning process while maintaining the fundamental principles.
+## Photo
+![Circuit](circuit.jpg)
 
-**Key Learnings:**
-- Understanding analog vs digital signals
-- PWM for controlling LED brightness
-- Mapping value ranges
-- Basic circuit construction with breadboards
-
-## Video Demo
-[Watch the project in action]( )
-
-
-## Future Improvements
-- Add third potentiometer for full RGB control
-- Implement preset color buttons
-- Add LCD display to show current RGB values
-- Create color mixing animations
+## Video
+[Video demo link]
 
 ## Resources
-Used Claude AI for learning Arduino basics and circuit debugging.
+Used Claude AI for understanding PWM and analogRead/analogWrite functions.
 
-
+---
 **Course:** Introduction to Robotics  
-**Date:** 06/11/2025 <br>
-**Student:** Muhammet Atamuradov - 361
+**Date:** November 2024
+**Student**: Atamuradov Muhammet - 361
