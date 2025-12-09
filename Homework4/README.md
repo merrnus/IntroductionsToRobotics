@@ -89,11 +89,11 @@ The cursor blinking only worked on the first digit at first. Fixed by checking w
 Joystick kept triggering menu changes when held in one direction. Added edge detection so it only changes once per movement.
 
 ## Photos
-![Circuit1](circuit1.jpg)
-![Circuit2](circuit2.jpg)
-![Circuit3](circuit3.jpg)
-![Circuit4](circuit4.jpg)
-![Circuit5](circuit5.jpg)
+![Circuit1](circuit1.jpeg)
+![Circuit2](circuit2.jpeg)
+![Circuit3](circuit3.jpeg)
+![Circuit4](circuit4.jpeg)
+![Circuit5](circuit5.jpeg)
 
 ## Video
 [Youtube Video](https://youtube.com/source/2MjrvnNt9W0/shorts?si=VL24Kv8dDquMEyeP)
