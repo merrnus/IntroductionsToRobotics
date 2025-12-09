@@ -94,6 +94,7 @@ Joystick kept triggering menu changes when held in one direction. Added edge det
 ![Circuit3](circuit3.jpeg)
 ![Circuit4](circuit4.jpeg)
 ![Circuit5](circuit5.jpeg)
+![Terminal](circuit6.jpeg)
 
 ## Video
 [Youtube Video](https://youtube.com/source/2MjrvnNt9W0/shorts?si=VL24Kv8dDquMEyeP)
