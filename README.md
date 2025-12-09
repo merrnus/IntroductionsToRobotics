@@ -23,5 +23,6 @@ Memory game on 4-digit 7-segment display controlled via joystick and 74HC595 shi
 ---
 
 **Student:** Muhammet Atamuradov - 361
+
 **Year:** 2024-2025  
 **Course:** Introduction to Robotics
