@@ -89,10 +89,14 @@ The cursor blinking only worked on the first digit at first. Fixed by checking w
 Joystick kept triggering menu changes when held in one direction. Added edge detection so it only changes once per movement.
 
 ## Photos
-![Circuit](circuit.jpg)
+![Circuit1](circuit1.jpg)
+![Circuit2](circuit2.jpg)
+![Circuit3](circuit3.jpg)
+![Circuit4](circuit4.jpg)
+![Circuit5](circuit5.jpg)
 
 ## Video
-[Demo video](link)
+[Youtube Video](https://youtube.com/source/2MjrvnNt9W0/shorts?si=VL24Kv8dDquMEyeP)
 
 ## Resources
 Used Claude AI to understand how 74HC595 works, multiplexing, and non-blocking code with millis(). Also helped debug the segment mapping issue.
