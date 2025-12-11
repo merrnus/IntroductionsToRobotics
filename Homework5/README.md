@@ -116,7 +116,11 @@ I got help from Claude AI to understand:
 - LCD character creation and rendering
 
 ## Photos
-![Circuit Photo](circuit.jpg)
+![Circuit1 Photo](circuit1.jpeg)
+![Circuit2 Photo](circuit2.jpeg)
+![Circuit3 Photo](circuit3.jpeg)
+![Circuit4 Photo](circuit4.jpeg)
+![Circuit5 Photo](circuit5.jpeg)
 
 ## Video
 [Gameplay Video](https://youtube.com/shorts/b2pRJo6VB6w?feature=share)
