@@ -119,7 +119,7 @@ I got help from Claude AI to understand:
 ![Circuit Photo](circuit.jpg)
 
 ## Video
-[Gameplay Video](video-link)
+[Gameplay Video](https://youtube.com/shorts/b2pRJo6VB6w?feature=share)
 
 ---
 **Course:** Introduction to Robotics  
