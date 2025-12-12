@@ -70,5 +70,6 @@ Used Claude AI for understanding PWM and analogRead/analogWrite functions.
 
 ---
 **Course:** Introduction to Robotics  
-**Date:** November 2024
+**Date:** November 2025
+
 **Student**: Atamuradov Muhammet - 361
