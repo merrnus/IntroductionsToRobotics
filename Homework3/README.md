@@ -91,5 +91,5 @@ Built with help from Claude AI for understanding Serial Monitor menus, sensor ca
 
 ---
 **Course:** Introduction to Robotics  
-**Date:** November 2024 <br>
+**Date:** November 2025 <br>
 **Student** ATAMURADOV MUHAMMET - 361
