@@ -86,7 +86,7 @@ Throughout these projects, I've learned:
 
 ---
 
-**Student:** Muhammet Atamuradov - 361
-**Year:** 2025-2026
+**Student:** Muhammet Atamuradov - 361<br>
+**Year:** 2025-2026<br>
 **University:** University of Bucharest, Faculty of Mathematics and Computer Science  
 **Course:** Introduction to Robotics
