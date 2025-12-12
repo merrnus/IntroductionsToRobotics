@@ -68,4 +68,4 @@ My display was common anode not cathode so I had to figure out how to invert the
 Used Claude AI for understanding state machines, interrupts, and millis() timing.
 
 Atamuradov Muhammet - 361          
-November 2024
+November 2025
