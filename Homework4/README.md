@@ -103,4 +103,4 @@ Joystick kept triggering menu changes when held in one direction. Added edge det
 Used Claude AI to understand how 74HC595 works, multiplexing, and non-blocking code with millis(). Also helped debug the segment mapping issue.
 
 ---
-**Date:** December 2024
+**Date:** December 2025
