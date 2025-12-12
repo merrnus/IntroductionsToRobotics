@@ -13,7 +13,7 @@ Learning the fundamentals of robotics and embedded systems through hands-on Ardu
 
 Control an RGB LED's color using three potentiometers (one for each color channel). Real-time color mixing with smooth transitions.
 
-[View details](./Homework1/)
+[View details](./homework1/)
 
 ---
 
@@ -23,7 +23,7 @@ Control an RGB LED's color using three potentiometers (one for each color channe
 
 Simulates a pedestrian crosswalk with traffic lights, countdown timer, and audio feedback. Implements proper traffic light sequencing and pedestrian crossing logic.
 
-[View details](./Homework2/)
+[View details](./homework2/)
 
 ---
 
@@ -86,7 +86,7 @@ Throughout these projects, I've learned:
 
 ---
 
-**Student:** [Your Name]  
-**Year:** 2024-2025  
+**Student:** Muhammet Atamuradov - 361
+**Year:** 2025-2026
 **University:** University of Bucharest, Faculty of Mathematics and Computer Science  
 **Course:** Introduction to Robotics
